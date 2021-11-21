@@ -1,0 +1,14 @@
+# npm dependencies
+node_modules
+
+# Cached classpath and the runtime basis files
+.cpcache
+
+# Output of the ClojureScript compiler
+target
+
+# https://clojure-lsp.io/settings/
+.lsp
+
+# https://github.com/clj-kondo/clj-kondo
+.clj-kondo
