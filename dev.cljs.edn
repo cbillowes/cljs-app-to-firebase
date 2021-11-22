@@ -3,7 +3,7 @@
   :css-dirs    ["resources/public"]}
 
 {;; root namespace for the compiled artifact.
- :main example-app.core
+ :main example-app.app.core
 
  ;; :none does not produce a single self-contained compiled artifact,
  ;; like with :whitespace, :simple or :advanced,

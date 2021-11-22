@@ -1,4 +1,4 @@
-(ns example-app.core
+(ns example-app.app.core
   (:require [reagent.dom :as r.dom]))
 
 
