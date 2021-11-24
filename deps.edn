@@ -12,13 +12,4 @@
   :dev
   {:main-opts ["--main"  "figwheel.main"
                "--build" "dev"
-               "--repl"]}}
-
- ;; primitive
- ;; connect to socket repl without any dependencies
- ;; lets you evaluate code from repl which is sent to the browser
- :socket
- {:jvm-opts ["-Dclojure.server.browser={:port 4444,:accept cljs.server.browser/repl}"]
-  :main-opts ["--main"    "figwheel.main"
-              "--watch"   "src"
-              "--compile" "example-app.core"]}}
+               "--repl"]}}}
