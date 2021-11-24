@@ -12,3 +12,6 @@ target
 
 # https://github.com/clj-kondo/clj-kondo
 .clj-kondo
+
+# This directory will store all the generated files for the project
+build
