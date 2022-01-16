@@ -2,7 +2,8 @@
   "scripts": {
     "postcss:watch": "cross-env TAILWIND_MODE=watch postcss src/css/tailwind.css -o ./build/style.css --verbose -w",
     "figwheel:watch": "clj -M:dev",
-    "develop": "run-p -l *:watch"
+    "develop": "run-p -l *:watch",
+    "build": "echo 'Coming soon...'"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
